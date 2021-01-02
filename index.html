@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fizz Buzz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>Fizz Buzz</h1>
+            <div class="settings">
+                <span>Settings</span>
+                <form>
+                    <input value="3" type="number" placeholder="Fizz Number" id="fizz_number"/>
+                    <input value="5" type="number" placeholder="Buzz Number" id="buzz_number"/>
+                    <input value="1" type="number" placeholder="Fizz" min="1" max="100" id="min_number" />
+                    <input value="100" type="number" placeholder="Buzz" min="1" max="100" id="max_number" />
+                    <!-- Reset Button -->
+                    <button id="btn_list" type="button">
+                        List
+                    </button>
+                    <!-- Reset Button -->
+                    <button id="btn_reset" type="button">
+                        Reset
+                    </button>
+                    <!-- Refresh Button -->
+                    <button id="btn_refresh" type="button">
+                        Refresh
+                    </button>
+                </form>
+            </div>
+        </header>
+        <!-- Boxs -->
+        <main id="box_main"></main>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
